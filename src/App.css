@@ -1,5 +1,93 @@
+
 .App {
   text-align: center;
+}
+
+body {
+  font-family:'nanumsquare';
+  margin: 0;
+}
+
+.header-nav {
+  display: flex;
+  background: #97C2FF;
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+}
+.header-item {
+  font-weight: 600;
+  font-size: 32px;
+  list-style-type: none;
+  padding: 16px;
+  cursor: pointer;
+}
+.header-item a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.header-login {
+  font-weight: 600;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 30px;
+  cursor: pointer;
+  position: fixed;
+  right:0;
+}
+
+.header-logo {
+  width: 200px;
+  height: 80px;
+}
+
+.header-login a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.main-nav {
+  display: flex;
+  background: #D5E7FF;
+  width: 100%;
+  margin: 0;
+  padding: 10;
+  list-style-type: none;
+}
+.main-item {
+  padding: 15px;
+  cursor: pointer;
+}
+.main-item a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  position: relative;
+  padding: 6px 6px;
+}
+.main-item a::after {
+  content:"";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 4px;
+  background: #97C2FF;
+  transition: all .5s ease-out;
+}
+.main-item a:hover::after {
+  width: 100%;
+}
+#footer{
+  position: fixed;
+  background-color: #97C2FF;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3rem;
 }
 
 .App-logo {
@@ -36,3 +124,130 @@
     transform: rotate(360deg);
   }
 }
+
+
+.chart-bar{
+  position: absolute;
+  width: 920px;
+  left: 10%;
+  top: 30%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+}
+
+.chart-name {
+  font-family:'nanumsquare';
+  position: fixed;
+  top: 27%;
+  color: black;
+
+}
+
+
+
+.notice-bar{
+  position: absolute;
+  width: 240px;
+  left: 70%;
+  top: 30%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+}
+
+.notice-name {
+  font-family:'nanumsquare';
+  position: fixed;
+  top: 26%;
+  color: black;
+}
+
+
+.new-name {
+  font-family:'nanumsquare';
+  position: fixed;
+  top: 50%;
+  color: black;
+} 
+
+
+.new-bar{
+  position: absolute;
+  width: 300px;
+  left: 10%;
+  top: 55%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+}
+
+.rev-bar{
+  position: absolute;
+  width: 300px;
+  left: 43%;
+  top: 55%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+}
+
+.rev-name {
+  font-family: 'nanumsquare';
+  position: fixed;
+  top: 50%;
+  color: black;
+}
+
+
+
+.buy-bar{
+  position: absolute;
+  width:300px;
+  left: 10%;
+  top: 75%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+ 
+}
+
+.buy-name {
+  font-family: 'nanumsquare';
+  position: fixed;
+  top: 70%;
+  color: black;
+}
+
+.chatt-bar{
+  position: absolute;
+  width: 300px;
+  left: 43%;
+  top: 75%;
+  height: 8px;
+  display: flex;
+  background: #D5E7FF;
+ 
+}
+
+.chatt-name {
+  font-family: 'nanumsquare';
+  position: fixed;
+  top: 70%;
+  color: black;
+}
+
+.App {
+  padding: auto;
+  border-bottom-style: none;
+  border-bottom: 20px;
+}
+
+.body {
+  padding: 3px;
+  margin: 0;
+  position: absolute;
+  box-sizing: border-box;
+  top: 200px;
+}
+
