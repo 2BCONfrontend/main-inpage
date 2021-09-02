@@ -1,0 +1,100 @@
+.App {
+    padding: auto;
+    border-bottom-style: none;
+    border-bottom: 20px;
+  }
+  
+  .body {
+    padding: 3px;
+    margin: 0;
+    position: absolute;
+    box-sizing: border-box;
+    top: 200px;
+  }
+  
+  .header-bar-1 {
+    position: absolute;
+    width: 853px;
+    left: 20%;
+    top: 25%;
+    height: 10px;
+    display: flex;
+    background: #D5E7FF;
+  }
+  
+  .header-title {
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    font-family:'nanumsquare';
+    font-weight: bold;
+  }
+  
+  .header-bar-2 {
+    position: absolute;
+    width: 853px;
+    left: 20%;
+    top: 30%;
+    height: 1px;
+    display: flex;
+    background: #e0e3e7;
+  }
+  
+  .header-bar-3 {
+    position: absolute;
+    width: 853px;
+    left: 20%;
+    top: 33%;
+    height: 1px;
+    display: flex;
+    background: #e0e3e7;
+  }
+  
+  .header-bar-4 {
+    position: absolute;
+    width: 853px;
+    left: 20%;
+    top: 70%;
+    height: 1px;
+    display: flex;
+    background: #e0e3e7;
+  }
+  
+  .reply-box{
+    position: absolute;
+    width: 760px;
+    height: 76px;
+    left: 20%;
+    top:75%;
+    border: 2px solid #e0e3e7;
+  }
+  
+  .reply-button{
+    position: absolute;
+    width: 75px;
+    height: 76px;
+    left: 61%;
+    top:75%;
+    border-color: #e0e3e7;
+    background-color: white;
+  }
+  
+  .list-button{
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    left: 20%;
+    top:85%;
+    border-color: #e0e3e7;
+    background-color: white;
+  }
+  
+  .reply-number{
+    font-family: 'nanumsquare';
+    position: fixed;
+    left: 20%;
+    top: 71%;
+    color: black;
+    font-weight: bold;
+  }
+  

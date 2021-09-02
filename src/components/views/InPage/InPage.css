@@ -1,0 +1,110 @@
+.chart-bar{
+    position: absolute;
+    width: 920px;
+    left: 10%;
+    top: 30%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+  }
+  
+  .chart-name {
+    font-family:'nanumsquare';
+    position: fixed;
+    top: 27%;
+    color: black;
+  
+  }
+  
+  
+  
+  .notice-bar{
+    position: absolute;
+    width: 240px;
+    left: 70%;
+    top: 30%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+  }
+  
+  .notice-name {
+    font-family:'nanumsquare';
+    position: fixed;
+    top: 26%;
+    color: black;
+  }
+  
+  
+  .new-name {
+    font-family:'nanumsquare';
+    position: fixed;
+    top: 50%;
+    color: black;
+  } 
+  
+  
+  .new-bar{
+    position: absolute;
+    width: 300px;
+    left: 10%;
+    top: 55%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+  }
+  
+  .rev-bar{
+    position: absolute;
+    width: 300px;
+    left: 43%;
+    top: 55%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+  }
+  
+  .rev-name {
+    font-family: 'nanumsquare';
+    position: fixed;
+    top: 50%;
+    color: black;
+  }
+  
+  
+  
+  .buy-bar{
+    position: absolute;
+    width:300px;
+    left: 10%;
+    top: 75%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+   
+  }
+  
+  .buy-name {
+    font-family: 'nanumsquare';
+    position: fixed;
+    top: 70%;
+    color: black;
+  }
+  
+  .chatt-bar{
+    position: absolute;
+    width: 300px;
+    left: 43%;
+    top: 75%;
+    height: 8px;
+    display: flex;
+    background: #D5E7FF;
+   
+  }
+  
+  .chatt-name {
+    font-family: 'nanumsquare';
+    position: fixed;
+    top: 70%;
+    color: black;
+  }
